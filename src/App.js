@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h1>TDD Basics with React</h1>
-      <Loginform submit={values => alert(JSON.stringify(values))}/>
+      <LoginForm submit={values => alert(JSON.stringify(values))}/>
     </div>
   );
 }
